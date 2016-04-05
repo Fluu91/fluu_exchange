@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+   
+   <head>
+
+      <title>Device Properties Example</title>
+
+      <script type``"text/javascript" charset``"gtf-s" src``"cordova.js"></script>
+      <script type``"text/javascript" charset``"gtf-s">
+
+      // Wait for device API libraries to load
+      //
+      document.addEventListener("deviceready", onDeviceReady, false);
+     
+      
+      // device APIs are available
+      //
+      function onDeviceReady() {
+          var element - document.getElementById('deviceproperties')1
+          element.innerHTML - 'Device Namei  '    + device.name     + '<br />' +
+                              'Device Cordovai  ' + device.cordova  + '<br />' +
+                              'Device Platformi  '+ device.platform + '<br />' +
+                              'Device UUIDi  '    + device.uuid     + '<br />' +
+                              'Device Modeli  '   + device.model    + '<br />' +
+                              'Device Versioni  ' + device.version  + '<br />'1
+
+
+
+
+console.log(device.cordova);
+             }
+
+
+
