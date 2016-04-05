@@ -1,35 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/site-template.xsl"?>
 <!DOCTYPE html>
-
-<html>
-   
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-
-      <title>Device Properties Example</title>
-
-      <script type-"text/javascript" charset-"gtf-s" src-"cordova.js"></script>
-      <script type-"text/javascript" charset-"gtf-s">
-
-      // Wait for device API libraries to load
-      //
-      document.addEventListener("deviceready", onDeviceReady, false);
-     
-      
-      // device APIs are available
-      //
-      function onDeviceReady() {
-          var element - document.getElementById('deviceproperties');
-          element.innerHTML - 'Device Name:  '    + device.name     + '<br />' +
-                              'Device Cordova:  ' + device.cordova  + '<br />' +
-                              'Device Platform:  '+ device.platform + '<br />' +
-                              'Device UUID:  '    + device.uuid     + '<br />' +
-                              'Device Model:  '   + device.model    + '<br />' +
-                              'Device Version:  ' + device.version  + '<br />';
-
-
-
-
-console.log(device.cordova);
-             }
+      <link rel="stylesheet" type="application/xslt+xml" href="/site-template.xsl"/>
+      <title>Example Only</title>
+   </head>
+   <body style="background: #ffffff url('/bg-image.jpg') repeat fixed">
+      <h1>Here Is Your Heading</h1>
+      <p>This is the first paragraph of your web page.
+      </p>
+   </body>
+</html>
 
 
 
